@@ -12,7 +12,8 @@ Uma API para inserir diversas versões da bíblia em seu site.
 ```json
 {
     "action": "bwVesoes"
-}```
+}
+```
 
 ### Obter lista de todos os livros/Abreviações
 `POST https://sshost.com.br/apis/BibliaApi/`
@@ -21,19 +22,22 @@ Uma API para inserir diversas versões da bíblia em seu site.
 ```json
 {
     "action": "bwLivros"
-}```
+}
+```
 
 ### Obter todos versículos de um capitulo
 `POST https://sshost.com.br/apis/BibliaApi/`
 
 *Corpo:*
+
 ```json
 {
         "action": "bwCapitulo",
         "version": "ACF",
         "abrev": "Sl",
         "chapters": 117
-    }```
+    }
+```
 
 ***Termos ***
 - "action" = Ação desejada
